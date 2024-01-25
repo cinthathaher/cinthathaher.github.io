@@ -1,0 +1,158 @@
+---
+title: "Pengaruh Nilai Ekspor Minyak Mentah Bagi Perekonomian Indonesia Tahun 2013-2022"
+subtitle: "Metode Penelitian Politeknik APP Jakarta"
+author: "Yucintha Qudsi Mutiara T."
+date: 2024-01-25
+number-sections: true
+format:
+  html: default
+  docx: default
+---
+
+![](poltekapp.jpg)
+
+## Pendahuluan
+
+### Latar belakang
+
+Dalam perspektif yang lebih luas, pembangunan ekonomi dipandang sebagai proses multidimensi yang mencakup berbagai perubahan mendasar pada struktur sosial, sikap masyarakat, dan institusi nasional. Selain itu, pembangunan ekonomi juga berusaha untuk mempercepat pertumbuhan ekonomi, mengurangi ketimpangan distribusi pendapatan, dan mengentasan kemiskinan (Todaro, 2007). Partum ekonomi adalah salah satu indikator kemajuan pembangunan. Pada dasarnya, indikator ini mengukur kemampuan suatu negara untuk meningkatkan outputnya lebih cepat daripada tingkat pertumbuhan penduduknya.
+
+Menurut Amir (2007), partum ekonomi didefinisikan sebagai siklus peningkatan produksi per kapita, atau output, dalam jangka waktu yang lama. perkembangan aktivitas ekonomi yang menghasilkan peningkatan produksi barang dan jasa serta peningkatan kemakmuran. Untuk ekonomi bertahan, pertumbuhan ekonomi harus cepat dan berkelanjutan. Salah satu konsekuensi dari stagnasi pertumbuhan ekonomi di banyak negara Afrika adalah kemiskinan yang persisten. Akibatnya, ekonom di negara-negara maju dan sedang berkembang telah sangat memperhatikan masalah pertumbuhan ekonomi (Tambunan, 2000).
+
+Pada akhir tahun 1970-an, para ekonom telah meneliti banyak masalah yang berhubungan dengan pertumbuhan ekonomi. Namun, mereka masih belum mencapai konsensus tentang penyebab utama pertumbuhan tersebut. Penyediaan tenaga kerja, stok modal, dan kemajuan teknologi adalah fokus utama dari aliran ekonomi klasik.
+
+Ekspor dan impor memegang peran penting dalam kegiatan perekono- mian suatu negara. Dalam proses produksi, bahan baku dan barang modal yang diperlukan untuk proses produksi akan diimpor, yang akan menghasilkan nilai tambah. Nilai Produk Domestik Bruto adalah total nilai tambah yang dihasilkan oleh seluruh unit produksi perekonomian. Menurut para ahli, ekspor dan investasi adalah "engine of growth". Oleh karena itu, peningkatan ekspor dan investasi umumnya mendorong pertumbuhan ekonomi yang cepat dan berkelanjutan. Ekspor minyak dan gas (migas) dan non-migas berbeda dalam perdagangan luar negeri.Ekspor minyak Indonesia cenderung berfluktuasi setiap tahun dan pada akhirnya mengalami penurunan yang memaksa negara untuk
+
+Karena harga minyak mentah dunia mulai naik dengan sangat cepat dan impor Indonesia terus meningkat seiring dengan peningkatan total konsumsi minyak dalam negeri, penurunan produksi dan ekspor yang cukup tajam ini sangat merugikan negara.
+
+Peningkatan kebutuhan bahan bakar minyak dalam negeri tidak diikuti oleh produksi bahan bakar minyak dalam negeri, yang menyebabkan pemerintah mengimpor sebagian kekurangan konsumsi bahan bakar minyak. Ketergantungan Indonesia pada bahan bakar impor semakin memberatkan pemerintah karena besarnya subsidi yang harus dibayar karena kenaikan harga minyak global (Wasista 2011). Tidak peduli bagaimana harga minyak dunia berfluktuasi dipasaran internasional, masalah ekspor dan impor minyak bumi Indonesia adalah masalah besar yang menarik perhatian dunia internasional belakangan ini peningkatan harga minyak dari tahun ke tahun.
+
+### Ruang lingkup
+
+Ruang lingkup pembahasan masalah sesuai dengan variable yang akan digunakan pada analisis kali ini, yaitu mengenai pengaruh nilai ekspor minyak mentah terhadap perekonomian Indonesia. Dalam menganalisis bagaimana dampak ekspor minyak mentah terhadap perekonomian di Indonesia dalam jangka waktu 10 tahun.
+
+### Rumusan masalah
+
+Apakah nilai ekspor minyak mentah mempengaruhi laju PDB di Indonesia?
+
+### Tujuan dan manfaat penelitian
+
+Tujuan penelitian ini untuk mengetahui apakah nilai ekspor minyak mentah berpengaruh terhadap perekonomian Indonesia
+
+Manfaat agar semua orang tau bahwa ekspor minyak mentah berpengaruh terhadap PDB Indonesia.
+
+### Package
+
+Ini tidak wajib ada di tulisan anda tapi anda dapat menunjukkan Packages yang digunakan antara lain sebagai berikut:
+
+```{r}
+#| warning: false
+#| echo: true
+library("tidyverse")
+library("readxl")
+library("dplyr")
+```
+
+## Studi pustaka
+
+Menurut Apridar, 2009 dalam Jamilah, dkk 2016 Ekspor adalah proses pertukaran barang dari suatu negara ke negara lain yang mendapat izin secara legal untuk melakukan ekspor. Ekspor merupakan bagian penting dalam memberikan neraca pembayaran dari negara. Dari pandangan tersebut dapat di tarik 10 kesimpulan bahwa teori ekspor merupakan suatu kegiatan menjual atau menyalurkan barang dari dalam negeri.
+
+Menurut Sukirno (2013:34) dalam bukunya makroekonomi teori pengantar, Produk Domestik Bruto (PDB) dapat diartikan sebagai nilai barang-barang dan jasa-jasa yang diproduksikan di dalam negara dalam satu tahun tertentu.
+
+## Metode penelitian
+
+### Data
+
+Data yang digunakan merupakan Nilai Ekspor Minyak Mentah dan Perekonomian Indonesia Tahun 2013-2022.
+
+| Tahun | M         |
+|-------|-----------|
+| 2013  | 10,204.70 |
+| 2014  | 9,215.00  |
+| 2015  | 6,479.40  |
+| 2016  | 5,196.70  |
+| 2017  | 5,354.90  |
+| 2018  | 5,151.90  |
+| 2019  | 1,726.60  |
+| 2020  | 1,396.90  |
+| 2021  | 2,795.90  |
+| 2022  | 1,615.30  |
+
+| Tahun | PDB   |
+|-------|-------|
+| 2013  | 5.55  |
+| 2014  | 4.99  |
+| 2015  | 4.78  |
+| 2016  | 5.06  |
+| 2017  | 5.03  |
+| 2018  | 5.17  |
+| 2019  | 5.04  |
+| 2020  | -2.03 |
+| 2021  | 3.25  |
+| 2022  | 5.41  |
+
+penelitian ini menggunakan data Nilai Ekspor Minyak Mentah dan Perekonomian Indonesia Tahun 2013-2022, dari Badan Pusat Statistik (BPS).
+
+Baca data
+
+```{r}
+#import dataset
+library(readxl)
+dat<-read_excel('dat.xlsx')
+head(dat)
+```
+
+```{r}
+library("ggplot2")
+library("readxl")
+library("dplyr")
+ggplot(data=dat,aes(x=PDB,y=M))+
+   geom_point(color="blue",size=2)+
+   labs(title="tabel 1. Hubungan Antara Perekonomian Indonesia dan Nilai Ekspor Minyak Mentah",
+        x="Perekonomian Indonesia",
+        y="Nilai Ekspor Minyak Mentah",
+        caption = "sumber : Badan Pusat Statistik")+
+   theme_classic()
+```
+
+### Metode analisis
+
+Metode yang dipilih adalah regresi univariat atau Ordinary Least Square (OLS) dengan 1 variabel independen. Penelitian ini merbaksud mencari hubungan antara Nilai Ekspor Minyak Mentah (M) dan Perekonomian Indonesia (PDB). Spesifikasi yang dilakukan adalah:
+
+$$
+y_{t}=\beta_0 + \beta_1 x_t+\mu_t
+$$ di mana $y_t$ adalah M dan $x_t$ adalah PDB.
+
+## Pembahasan
+
+### Pembahasan masalah
+
+Dikarenakan saya menggunakan OLS, Pembahasan saya disini hanya menghubungkan Angka Partisipasi Sekolah dan Jumlah Penduduk Miskin Data tersebut saya satukan untuk saya regresi dan tampilannya seperti ini.
+
+```{r}
+#import dataset
+library(readxl)
+dat<-read_excel('dat.xlsx')
+head(dat)
+```
+
+### Analisis masalah
+
+Hasil regresinya adalah
+
+```{r}
+reg1<-lm(PDB~M,data=dat)
+summary(reg1)
+```
+
+## Kesimpulan
+
+Dari hasil regresi dapat dapat disimpulkan, bahwa Nilai ekspor minyak mentah berpengaruh terhadap perekonomian Indonesia tahun 2013-2022. Setiap kenaikan nilai ekspor minyak mentah dengan diasumsikan nilainya 1, maka dapat meningkatkan PDB sebesar 0.0003389.
+
+## Referensi
+
+Badan Pusat Statistik. (n.d). Retrieved January 25, 2024, from https://www.bps.go.id/id/statistics-table/2/MTA0IzI=/pertumbuhan-ekonomi--triwulan-iii-2023.html.
+
+Badan Pusat Statistik. (n.d). Retrieved January 25, 2024, from https://www.bps.go.id/id/statistics-table/1/MTAwNCMx/nilai-ekspor-dan-impor-migas-juta-us-1996-2022.html.
+
+Mustika, M., Haryadi, H., & Hodijah, S. (2015). Pengaruh Ekspor dan Impor Minyak Bumi terhadap Pertumbuhan Ekonomi Indonesia. Jurnal Perspektif Pembiayaan dan Pembangunan Daerah, 2(3), 107-118.
